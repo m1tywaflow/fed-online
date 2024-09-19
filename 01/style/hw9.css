@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;   
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 512px;
+    height: 512px;
+    background-color: black;
+    z-index: 1;
+}
+.postextdia-img{
+    top: 111px;
+    left: 88px;
+    position: absolute;
+}
+.posflag-img{
+    position: absolute;
+    top: 343px;
+    left: 216px;
+}
+.secondcontainer{
+    background-color: yellow;
+    width: 512px;
+    height: 512px;
+    z-index: 2;
+    left: 390px;
+    top: -135px;
+    position: relative;
+}
+.posimg-first{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.posimg-second{
+    position: absolute;
+    top: 155px;
+    left: 75px;
+}
+.thirdcontainer{
+    width: 512px;
+    height: 512px;
+    background-color: #fff;
+    position: relative;
+    border-top: 2px solid rgb(33, 55, 252);
+    border-bottom: 2px solid rgb(33, 55, 252);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25); 
+    top: -227px;
+    left: 825px;
+}
+.position-img{
+    position: absolute;
+    top: 26px;
+    left: 24px;
+}
+.second-img{
+    top: 0px;
+    left: 41px;
+    position: absolute;
+}
+.conteinerthird{
+    position: absolute;
+    left: 24px;
+    top: 245px;
+    width: 444px;
+    height: 233px;
+    background-color: #FFCE22;
+    border-radius: 0 0 700px 700px;
+}
+ 
