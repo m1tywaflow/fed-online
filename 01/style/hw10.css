@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #00a1c60d;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.headertext {
+  font-family: "IBM Plex Sans", sans-serif;
+  text-align: left;
+  margin-top: 142px;
+  margin-bottom: 55px;
+}
+
+.headertext h2 {
+  font-weight: 600;
+  font-size: 48px;
+  letter-spacing: -0.5px;
+  margin-bottom: 20px;
+}
+.headertext h2 span {
+  font-weight: 400;
+}
+.headertext p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+}
+.firsttext {
+  font-family: "Catamaran", sans-serif;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.firsttext h6 {
+  color: #2d3640;
+  text-align: center;
+  font-family: Catamaran;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.625px;
+
+  margin: 0;
+}
+.firsttext p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #4b4f52;
+  text-align: center;
+  margin: 0;
+}
+.cards {
+  position: relative;
+  width: 100%;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card {
+  padding-top: 56px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(234, 237, 242);
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(45, 54, 64, 0.05);
+  width: 100%;
+  padding-top: 56px;
+  padding-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+
+  margin-bottom: 34px;
+  border: 2px solid rgb(239, 243, 248);
+}
+.person-img {
+  height: inherit;
+  width: 120px;
+  height: 120px;
+}
+.spec-img {
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speciality {
+  text-align: center;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+
+.bg-green {
+  background-color: #41b883;
+}
+.img {
+  position: relative;
+  width: auto;
+  max-width: 30px;
+}
+.bg-orange {
+  background-color: #e44e25;
+}
+.bg-blue {
+  background-color: #1073bb;
+}
+.bg-gray {
+  background-color: #34474f;
+}
+.bg-black {
+  background-color: #202124;
+}
+.bg-oceanic {
+  background-color: #61dafb;
+}
+.bg-red {
+  background-color: #d63033;
+}
+.bg-sky {
+  background-color: #0aa9d7;
+}
