@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../img/netflixpage/background.png ");
+  background-size: 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.container {
+  display: flex;
+  /* padding: 40px; */
+  position: relative;
+  justify-content: space-between;
+  padding-top: 54px;
+  padding-left: 62px;
+}
+.netflix {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.line {
+  position: relative;
+  top: -30px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 0 20px;
+}
+
+.date {
+  position: relative;
+  top: 14px;
+}
+.date img {
+  width: 90%;
+}
+.right-side {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.button {
+  position: relative;
+
+  top: -26px;
+  right: 60px;
+}
+.ava {
+  position: relative;
+  top: -30px;
+  right: 20px;
+}
+.search-butt {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+.main {
+  position: relative;
+}
+section {
+  /* padding: 98px 0 0 40px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 74px 0 0 40px;
+}
+.genres {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 24px;
+  /* margin-top: -34px; */
+  position: relative;
+  left: 19px;
+}
+.lines {
+  display: flex;
+  /* padding: 0 10px 0 10px; */
+  position: relative;
+  top: -22px;
+  margin: 20px;
+}
+form input {
+  position: relative;
+  top: -16px;
+  left: -10px;
+  background-color: transparent;
+  min-width: 150px;
+  background-size: 43px 43px;
+  min-height: 50px;
+  color: #fff;
+}
+.genres a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 35px;
+  margin-top: -50px;
+}
+.title {
+  display: flex;
+  position: relative;
+}
+.title h1 {
+  color: #fff;
+  font-size: 68px;
+  line-height: 76px;
+  letter-spacing: 0.055em;
+  text-align: left;
+  position: relative;
+  padding-left: 20px;
+  top: -66px;
+}
+.text-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -200px;
+  padding-left: 20px;
+  margin-bottom: 14px;
+}
+.info {
+  color: #fff;
+}
+.info {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 37px;
+  color: #ffff;
+}
+.datefilm {
+  position: relative;
+  top: 0;
+  margin-right: 50px;
+}
+.info p {
+  position: relative;
+  right: 40px;
+}
+.author {
+  position: relative;
+  left: 10px;
+  top: 2px;
+}
+.season {
+  position: relative;
+  left: 50px;
+}
+.episode {
+  position: relative;
+  left: 60px;
+  top: 3px;
+}
+.author {
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 36px;
+  color: gray;
+}
+.episode {
+  font-size: 29px;
+  font-weight: 400;
+  line-height: 35px;
+  color: gray;
+}
+.about {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  margin-top: -14%;
+  padding-left: 20px;
+}
+.about p {
+  width: 49%;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  color: #a7a6a6;
+  margin-bottom: 25px;
+}
+.star-rating {
+  display: inline-flex;
+  direction: rtl;
+  padding-left: 20px;
+  top: -24px;
+  position: relative;
+  font-size: 20px;
+}
+
+.star-rating input {
+  display: none;
+}
+
+.star-rating label {
+  font-size: 3rem;
+  color: gray;
+  /* колір неактивних */
+
+  cursor: pointer;
+}
+
+.star-rating input:checked ~ label {
+  color: #ffca08; /* колір активної зірки */
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color: #ffca08; /* колір при наведенні */
+}
+.buttons {
+  display: flex;
+  cursor: pointer;
+}
+.play {
+  display: flex;
+  justify-content: center;
+}
+.playnow p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30;
+  text-align: left;
+  margin-left: 34px;
+}
+.playnow {
+  width: 272px;
+  height: 64px;
+  margin-left: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background: rgb(213, 13, 31);
+  cursor: pointer;
+}
+.playnow img {
+  margin-left: 10px;
+}
+.episodes {
+  width: 270px;
+  height: 64px;
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left: 86px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.episodes p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 30;
+  text-align: left;
+  margin-left: 56px;
+}
+footer {
+  width: 100%;
+}
+.infoweek {
+  padding-left: 60px;
+  padding-top: 35px;
+}
+.infoweek h2 {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 800;
+  line-height: 31.79px;
+  letter-spacing: 0.135em;
+  text-align: left;
+  color: #ffffff;
+}
+.films {
+  display: flex;
+  gap: 50px;
+  padding-top: 14px;
+  padding-left: 58px;
+}
+.strelku {
+  display: flex;
+  margin-top: -48px;
+  justify-content: center;
+  font-size: 200px;
+  gap: 25px;
+}
+.leftarrow {
+  color: rgb(154, 154, 154);
+  background-color: transparent;
+  border-radius: 100%;
+  padding-left: 1%;
+  margin-bottom: 10px;
+  width: 38px;
+  height: 38px;
+  border: 1.42px solid rgba(167, 166, 166, 1);
+  cursor: pointer;
+}
+.leftarrow:hover {
+  background-color: white;
+}
+.rightarrow {
+  border: 1.54px solid rgba(255, 255, 255, 1);
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border-radius: 100%;
+  margin-top: -1px;
+  width: 41px;
+  height: 41px;
+  text-align: center;
+  cursor: pointer;
+}
+.rightarrow:hover {
+  background-color: red;
+}
+.leftarrow img {
+  position: relative;
+  left: -6px;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 174px;
+  height: 66px;
+  background-color: #ffffff7d;
+  position: relative;
+  float: right;
+  bottom: 210px;
+}
+
+.block::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 100%;
+  background-color: red;
+}
+
+.block span {
+  z-index: 1;
+  font-size: 18px;
+  color: white;
+}
+.age {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 34px;
+  text-align: left;
+}
