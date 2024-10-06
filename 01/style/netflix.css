@@ -1,34 +1,42 @@
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html{
+  height: 100%;
 }
 body {
   background-image: url("../img/netflixpage/background.png ");
-  background-size: 100%;
   background-position: center;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
+  height: 100%;
 }
+
 
 .container {
   display: flex;
   /* padding: 40px; */
   position: relative;
   justify-content: space-between;
-  padding-top: 54px;
-  padding-left: 62px;
+  /* padding-top: 54px;
+  padding-left: 62px; */
+  align-items: center;
+  padding: 54px 60px 0;
 }
 .netflix {
-  justify-content: flex-start;
+  align-items: center;
   display: flex;
+  gap: 40px;
 }
 
 .line {
   position: relative;
-  top: -30px;
-  margin: 40px;
+  /* top: -30px; */
   display: flex;
   justify-content: center;
   padding: 0 0 0 20px;
@@ -36,7 +44,7 @@ body {
 
 .date {
   position: relative;
-  top: 14px;
+  /* top: 14px; */
 }
 .date img {
   width: 90%;
@@ -44,18 +52,12 @@ body {
 .right-side {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-}
-.button {
-  position: relative;
-
-  top: -26px;
-  right: 60px;
+  gap: 44px;
 }
 .ava {
   position: relative;
-  top: -30px;
-  right: 20px;
+  /* top: -30px;
+  right: 20px; */
 }
 .search-butt {
   background-color: transparent;
@@ -69,11 +71,8 @@ body {
 }
 section {
   /* padding: 98px 0 0 40px; */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 74px 0 0 40px;
+  width: 100%;
+  padding: 74px 60px 0;
 }
 .genres {
   display: flex;
@@ -82,33 +81,23 @@ section {
   font-size: 24px;
   /* margin-top: -34px; */
   position: relative;
-  left: 19px;
+  /* left: 19px; */
 }
 .lines {
   display: flex;
   /* padding: 0 10px 0 10px; */
   position: relative;
-  top: -22px;
+  /* top: -22px; */
   margin: 20px;
-}
-form input {
-  position: relative;
-  top: -16px;
-  left: -10px;
-  background-color: transparent;
-  min-width: 150px;
-  background-size: 43px 43px;
-  min-height: 50px;
-  color: #fff;
 }
 .genres a {
   color: #fff;
   text-decoration: none;
   font-size: 35px;
-  margin-top: -50px;
+  /* margin-top: -50px; */
 }
 .title {
-  display: flex;
+  margin-bottom: 18px;
   position: relative;
 }
 .title h1 {
@@ -118,48 +107,34 @@ form input {
   letter-spacing: 0.055em;
   text-align: left;
   position: relative;
-  padding-left: 20px;
-  top: -66px;
 }
 .text-info {
   display: flex;
   align-items: center;
   position: relative;
-  top: -200px;
-  padding-left: 20px;
-  margin-bottom: 14px;
-}
-.info {
+  /* top: -200px; */
+  /* padding-left: 20px; */
+  margin-bottom: 18px;
   color: #fff;
-}
-.info {
   font-size: 30px;
   font-weight: 500;
-  line-height: 37px;
-  color: #ffff;
+  line-height: 36px;
+  gap: 50px;
 }
-.datefilm {
-  position: relative;
-  top: 0;
-  margin-right: 50px;
-}
-.info p {
-  position: relative;
-  right: 40px;
-}
+
 .author {
   position: relative;
-  left: 10px;
-  top: 2px;
+  /* left: 10px;
+  top: 2px; */
 }
 .season {
   position: relative;
-  left: 50px;
+  /* left: 50px; */
 }
 .episode {
   position: relative;
-  left: 60px;
-  top: 3px;
+  /* left: 60px;
+  top: 3px; */
 }
 .author {
   font-weight: 400;
@@ -177,8 +152,9 @@ form input {
   display: flex;
   justify-content: flex-start;
   position: relative;
-  margin-top: -14%;
-  padding-left: 20px;
+  /* margin-top: -14%; */
+  /* padding-left: 20px; */
+  margin-bottom: 20px;
 }
 .about p {
   width: 49%;
@@ -186,15 +162,14 @@ form input {
   font-weight: 400;
   line-height: 34px;
   color: #a7a6a6;
-  margin-bottom: 25px;
 }
 .star-rating {
   display: inline-flex;
   direction: rtl;
-  padding-left: 20px;
-  top: -24px;
+  /* padding-left: 20px; */
+  /* top: -24px; */
   position: relative;
-  font-size: 20px;
+  margin-bottom: 40px;
 }
 
 .star-rating input {
@@ -204,6 +179,7 @@ form input {
 .star-rating label {
   font-size: 3rem;
   color: gray;
+  line-height: 40px;
   /* колір неактивних */
 
   cursor: pointer;
@@ -217,13 +193,12 @@ form input {
 .star-rating label:hover ~ label {
   color: #ffca08; /* колір при наведенні */
 }
-.buttons {
-  display: flex;
-  cursor: pointer;
-}
+
 .play {
   display: flex;
-  justify-content: center;
+  cursor: pointer;
+  gap: 90px;
+  margin-bottom: 54px;
 }
 .playnow p {
   color: #fff;
@@ -237,80 +212,100 @@ form input {
 .playnow {
   width: 272px;
   height: 64px;
-  margin-left: 20px;
-  margin-top: 20px;
   display: flex;
   align-items: center;
   text-align: center;
   border-radius: 10px;
   background: rgb(213, 13, 31);
   cursor: pointer;
+  border: none;
+  gap: 10px;
 }
-.playnow img {
-  margin-left: 10px;
-}
+
 .episodes {
   width: 270px;
   height: 64px;
   background-color: transparent;
   border-radius: 10px;
-  margin-left: 86px;
-  margin-top: 20px;
   display: flex;
   align-items: center;
-  text-align: center;
   border: 3px solid rgb(255, 255, 255);
   border-radius: 10px;
   cursor: pointer;
+  text-align: center;
+  justify-content: center;
 }
 .episodes p {
   color: #fff;
   font-family: Inter;
   font-size: 22px;
   font-weight: 500;
-  line-height: 30;
-  text-align: left;
-  margin-left: 56px;
+  line-height: 30px;
 }
 footer {
   width: 100%;
 }
-.infoweek {
-  padding-left: 60px;
-  padding-top: 35px;
+.type2{
+  padding-top: 0;
+  position: relative;
+  width: 100%;
+  max-width: 944px;
+  padding-bottom: 50px;
 }
-.infoweek h2 {
+.infowork {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-title {
   font-family: Inter;
   font-size: 22px;
   font-weight: 800;
   line-height: 31.79px;
   letter-spacing: 0.135em;
-  text-align: left;
   color: #ffffff;
 }
 .films {
-  display: flex;
   gap: 50px;
-  padding-top: 14px;
-  padding-left: 58px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  width: 100%;
+}
+.films-img{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 169%;
+}
+.films-img img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 .strelku {
+  position: relative;
   display: flex;
-  margin-top: -48px;
-  justify-content: center;
-  font-size: 200px;
   gap: 25px;
 }
 .leftarrow {
   color: rgb(154, 154, 154);
   background-color: transparent;
-  border-radius: 100%;
-  padding-left: 1%;
-  margin-bottom: 10px;
-  width: 38px;
-  height: 38px;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
   border: 1.42px solid rgba(167, 166, 166, 1);
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .leftarrow:hover {
   background-color: white;
@@ -319,19 +314,26 @@ footer {
   border: 1.54px solid rgba(255, 255, 255, 1);
   color: rgb(255, 255, 255);
   background-color: transparent;
-  border-radius: 100%;
-  margin-top: -1px;
-  width: 41px;
-  height: 41px;
-  text-align: center;
+  border-radius: 50%;
+  width: 42px;
+  height: 42px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .rightarrow:hover {
   background-color: red;
 }
 .leftarrow img {
   position: relative;
-  left: -6px;
+  width: 10px;
+  margin-left: -1px;
+}
+.rightarrow img {
+  position: relative;
+  width: 10px;
+  margin-left: 2px;
 }
 
 .block {
@@ -340,30 +342,28 @@ footer {
   justify-content: center;
   width: 174px;
   height: 66px;
-  background-color: #ffffff7d;
-  position: relative;
-  float: right;
-  bottom: 210px;
+  background-color: rgba(255, 255, 255, 0.49);
+  position: fixed;
+  right: 0;
+  bottom: 102px;
+  padding-left: 30px;
 }
 
 .block::before {
   content: "";
   position: absolute;
-  left: 0;
   width: 30px;
   height: 100%;
   background-color: red;
+  left: 0;
 }
 
-.block span {
-  z-index: 1;
-  font-size: 18px;
-  color: white;
-}
 .age {
   font-family: Inter;
-  font-size: 24px;
   font-weight: 500;
   line-height: 34px;
-  text-align: left;
+  color: #fff;
+  font-size: 24px;
+  
+  
 }
