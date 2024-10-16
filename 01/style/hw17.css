@@ -466,7 +466,7 @@ footer {
     display: grid;
     column-gap: 100px;
   }
-  .footer-bottom p{
+  .footer-bottom{
     margin-top: 44px;
   }
   .social-media {
