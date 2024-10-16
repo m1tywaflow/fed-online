@@ -466,6 +466,9 @@ footer {
     display: grid;
     column-gap: 100px;
   }
+  .footer-bottom p{
+    margin-top: 44px;
+  }
   .social-media {
     display: flex;
   }
