@@ -482,6 +482,9 @@ footer {
     display: grid;
     column-gap: 100px;
   }
+  .footer-bottom{
+    margin-top: 44px;
+  }
   .social-media {
     display: flex;
   }
