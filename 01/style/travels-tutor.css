@@ -4,6 +4,10 @@
 html {
   overflow-x: hidden;
 }
+body {
+  font-family: "Montserrat";
+}
+
 .head-container {
   display: flex;
   justify-content: space-between;
@@ -65,7 +69,7 @@ p {
   margin: 0;
 }
 .info h1 {
-  font-weight: 800;
+  font-weight: 600;
   font-size: 36px;
   line-height: 49.18px;
 }
@@ -112,6 +116,9 @@ p {
   text-decoration: none;
   color: #767676;
 }
+.container-search{
+  padding: 0 120px 0 120px;
+}
 .search-bar {
   display: flex;
   align-items: center;
@@ -121,24 +128,22 @@ p {
   position: relative;
   bottom: 250px;
   height: 100px;
-  width: 89%;
-  margin-left: 120px;
+  width: 103%;
   margin-top: -2px;
   justify-content: space-around;
 }
 
 .dropdown {
-  flex: 1;
+ width: 21%;
   font-size: 16px;
   border: none;
   outline: none;
-  border-radius: 5px;
   background-color: #386e41;
   color: #fff;
-  margin-right: 96px;
-  padding-left: 38px;
+  margin-right: -54px;
   margin-bottom: 10px;
   border-bottom: 1px solid white;
+  padding-bottom: 8px;
 }
 
 .search-button {
@@ -169,4 +174,3 @@ p {
   position: relative;
   bottom: 20px;
 }
-
