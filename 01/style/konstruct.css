@@ -201,7 +201,7 @@ a.active-blue {
   color: #ffffff;
   width: 4%;
   padding: 1px 15px;
-  font-size: 28px;
+  font-size: 20px;
   line-height: 29px;
   letter-spacing: 0.19px;
   font-family: "Open Sans";
@@ -438,7 +438,7 @@ a.active-blue {
   margin-bottom: 10px;
   display: block;
 }
-.footer-section2 h4{
+.footer-section2 h4 {
   font-family: "Open Sans";
   font-size: 13px;
   line-height: 12.89px;
@@ -475,22 +475,20 @@ a.active-blue {
   max-width: 302px;
   display: flex;
 }
-.social-icons{
+.social-icons {
   display: flex;
   gap: 20px;
   padding: 72px 0 0 46px;
   justify-content: space-around;
 }
-.social-icons a{
+.social-icons a {
   cursor: pointer;
   color: #fff;
   height: 0;
 }
 .social-icons a:hover {
-  color:#00aaff;
+  color: #00aaff;
 }
-
-
 
 .use-logo-last {
   font-family: Arial, sans-serif;
@@ -518,17 +516,313 @@ a.active-blue {
   border-left: 12px solid #00aaff; /* цвет треугольника */
   transform: rotate(180deg);
 }
-.finish{
+.finish {
   text-align: center;
   background-color: #171819;
   margin: 0;
   height: 60px;
   margin-top: -18px;
   padding-top: 4px;
-  color:#fff;
+  color: #fff;
   font-size: 14px;
   line-height: 12.89px;
   letter-spacing: 0.85px;
   font-family: "Open Sans";
 }
 
+@media (max-width: 810px) {
+  header {
+    height: 436px;
+  }
+  .logo {
+    padding-top: 1px;
+    font-size: 24px;
+  }
+  .logo .t::after {
+    border-top: 11px solid transparent;
+    border-bottom: 11px solid transparent;
+    border-left: 10px solid #0af;
+    right: 12px;
+  }
+  .t {
+    left: 12px;
+  }
+  .center {
+    top: -188px;
+  }
+  .center h1 {
+    font-size: 21px;
+  }
+  .center p {
+    font-size: 13px;
+  }
+  .scroll-btn {
+    display: none;
+  }
+  .use-logo {
+    font-size: 28px;
+  }
+  .use-logo .t::after {
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-left: 12px solid #00aaff;
+    top: 8px;
+    right: 13px;
+  }
+  .navigation {
+    padding: 0 36px;
+  }
+  .text {
+    width: 36%;
+    padding: 38px 11px;
+  }
+  .text h1 {
+    width: 105%;
+  }
+  .text p {
+    width: 108%;
+  }
+  .img {
+    padding-left: 40px;
+    gap: 16px;
+  }
+  .image-container h2 {
+    padding: 1px 10px;
+  }
+
+  .img img {
+    height: 56%;
+  }
+  .second-half {
+    padding: 24px 18px 0 18px;
+  }
+  .head-line p {
+    margin-top: -3px;
+    font-size: 11px;
+    left: 32px;
+    width: 36%;
+  }
+  .like-offer {
+    top: 155px;
+  }
+  .btn-get-in-toch {
+    width: 18%;
+  }
+  .newsletter-container h3 {
+    font-size: 20px;
+  }
+  .newsletter-form input[type="email"] {
+    font-size: 12px;
+  }
+  .newsletter-form button {
+    font-size: 12px;
+    width: 115px;
+    height: 34px;
+  }
+  .footer {
+    padding: 9px 0;
+    gap: 38px;
+  }
+  .use-logo-last .f::after {
+    border-top: 13px solid transparent;
+    border-bottom: 13px solid transparent;
+    border-left: 11px solid #0af;
+    top: 11px;
+    right: 15px;
+  }
+  .footer-section1 {
+    padding-left: 10px;
+  }
+  .footer-section2 a {
+    font-size: 11px;
+  }
+  .footer-section3 {
+    font-size: 11px;
+  }
+  .finish {
+    font-size: 12px;
+    margin-top: -6px;
+  }
+}
+@media (max-width: 390px) {
+  header {
+    height: 215px;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  .logo {
+    font-size: 19px;
+  }
+  .logo .t::after {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 9px solid #0af;
+    right: 10px;
+    top: 6px;
+  }
+  .center {
+    top: -281px;
+  }
+  .center h1 {
+    font-size: 13px;
+  }
+  .center p {
+    font-size: 10px;
+  }
+  .use-logo {
+    text-align: center;
+  }
+  .navigation {
+    display: block;
+    padding: 0 10px;
+  }
+  .right-side {
+    gap: 36px;
+    display: grid;
+  }
+  .right-side a {
+    font-size: 17px;
+  }
+  .story {
+    padding-top: 40px;
+  }
+  .text {
+    width: 53%;
+    padding: 63px 8px;
+    font-size: 18px;
+  }
+  .img {
+    display: block;
+    padding-left: 38px;
+  }
+  .second-half {
+    padding: 50px 5px 0 6px;
+  }
+  .head-line {
+    display: block;
+    text-align: center;
+  }
+  .underline {
+    font-size: 28px;
+  }
+  .underline::after {
+    width: 105px;
+    height: 3px;
+  }
+  .underline2 {
+    font-size: 24px;
+  }
+  .underline2::after {
+    left: 50%;
+    width: 150px;
+    height: 3px;
+    margin-bottom: -10px;
+  }
+  .head-line p {
+    width: 71%;
+    left: 55px;
+    padding-top: 24px;
+    font-size: 15px;
+  }
+  .btn-services {
+    margin-top: 26px;
+  }
+  .info {
+    display: block;
+    padding-top: 70px;
+  }
+  .project {
+    width: 100%;
+    padding-top: 40px;
+  }
+  .project img {
+    width: 35%;
+    left: 34%;
+    position: relative;
+  }
+  .info h2 {
+    width: 103%;
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+  .info p {
+    width: 100%;
+    font-size: 16px;
+    padding: 6px 20px 0 20px;
+  }
+  .structure {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .structure img {
+    width: 35%;
+    position: relative;
+    left: 34%;
+  }
+  .factory {
+    width: 100%;
+    padding-top: 100px;
+  }
+  .factory img {
+    width: 35%;
+    position: relative;
+    left: 34%;
+  }
+  .like-offer {
+    top: 109px;
+  }
+  .like-offer h1 {
+    font-size: 23px;
+  }
+  .btn-get-in-toch {
+    width: 30%;
+  }
+  .newsletter-container {
+    display: block;
+  }
+  .newsletter-container h3 {
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .newsletter-form {
+    margin: 0;
+  }
+  .newsletter-form button {
+    font-size: 14px;
+  }
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .use-logo-last{
+    padding: 8px 0 8px;
+  }
+  .footer-section1 {
+    max-width: 390px;
+    font-size: 14px;
+    padding: 0;
+  }
+  .footer-section2 h4 {
+    font-size: 17px;
+    padding: 26px 0 26px;
+  }
+  .columns {
+    padding-left: 40px;
+  }
+  .columns a{
+    font-size: 14px;
+  }
+  .footer-section3{
+    display: block;
+    padding-top: 10px;
+    font-size: 14px;
+    max-width: 390px;
+  }
+  .social-icons{
+    padding: 40px 0 0 22px;
+    gap: 2px;
+    margin-bottom: 30px;
+  }
+}
